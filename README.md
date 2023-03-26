@@ -1,5 +1,5 @@
 # What is this
-This is a proof of concept of an idea that I've had, using the univalence principle from homotopy type theory as an inspiration.
+This is a proof of concept of an idea that's loosely inspired by the univalence principle from homotopy type theory as an inspiration.
 
 The general idea is that we define mappers between types to create generic functions that can handle any type that's equivalent to another type.
 
