@@ -1,9 +1,8 @@
 # What is this
 This is a proof of concept of an idea that's loosely inspired by the univalence principle from homotopy type theory as an inspiration.
 
-The general idea is that we define mappers between types to create generic functions that can handle any type that's equivalent to another type.
-
-I.e. if we have three types that represents a customer
+The general idea is that we define mappers between types to create generic functions that can handle any type equivalent to the type that it's been initially written for. 
+I.e. if we have three types that represent a customer
 
 `[firstName, surname, email] // CustomerArr`
 
@@ -11,7 +10,7 @@ I.e. if we have three types that represents a customer
 
 `{firstName: firstName, lastName: surname, emailAddress: email} // PrettyCustomerRecord`
 
-We define a function that handles only one of these, but thanks to the framework represented in this proof of concept it can handle each of these types equally as well.
+We define a function that handles only one of these, but thanks to the system that's represented in this proof of concept, it can handle each of these types equally as well.
 i.e.:
 ```
 const swapSurnameWithName = (customerArr: CustomerArr) => {
