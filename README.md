@@ -36,24 +36,22 @@ This function will handle all the types despite the fact that it only operates o
 ```
 // Because we defined how types relate to each other
 // our function can handle any of these types
-console.time('Example 1')
-const result1 = swapSurnameWithNameU({
+
+swapSurnameWithNameU({
   firstName: 'John',
   lastName: 'Doe',
   emailAddress: 'johndoe@gmail.com'
 })
-console.timeEnd('Example 1')
+// outputs { firstName: 'Doe', lastName: 'John', emailAddress: 'johndoe@gmail.com' }
 
-console.time('Example 2')
-const result2 = swapSurnameWithNameU({
+
+swapSurnameWithNameU({
   name: 'John',
   surname: 'Doe',
   email: 'johndoe@gmail.com'
 })
-console.timeEnd('Example 2')
+// outputs { name: 'Doe', surname: 'John', email: 'johndoe@gmail.com' }
 ```
-
-Please see `demo` for example.
 
 # How to run demo
 The good, old `npm i` and `npm start`. It uses ts-node as a dependency to run this example.
