@@ -56,4 +56,4 @@ console.timeEnd('Example 2')
 Please see `demo` for example.
 
 # How to run demo
-The good, old `npm i` and `npm start`
+The good, old `npm i` and `npm start`. It uses ts-node as a dependency to run this example.
