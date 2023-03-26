@@ -3,6 +3,8 @@ import { TypeGraph } from "../src";
 const graph = new TypeGraph()
 
 
+////////// DEFINITIONS ////////////
+
 type CustomerArr = [
   string,
   string,
@@ -73,7 +75,7 @@ graph.addMapping({
   }
 })
 
-
+////////// Let's get to the point ////////////
 
 // We define the function to switch the surname with the first name
 // only for one type
