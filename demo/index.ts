@@ -90,18 +90,21 @@ const swapSurnameWithName = graph.createUnivalentFunction((customerArr: Customer
 
 // Because we defined how types relate to each other
 // our function can handle any of these types
-
+console.time('Example 1')
 const result1 = swapSurnameWithName({
   firstName: 'John',
   lastName: 'Doe',
   emailAddress: 'johndoe@gmail.com'
 })
+console.timeEnd('Example 1')
 
+console.time('Example 2')
 const result2 = swapSurnameWithName({
   name: 'John',
   surname: 'Doe',
   email: 'johndoe@gmail.com'
 })
+console.timeEnd('Example 2')
 
 
 // { firstName: 'Doe', lastName: 'John', emailAddress: 'johndoe@gmail.com' }
