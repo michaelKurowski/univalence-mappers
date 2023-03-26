@@ -6,10 +6,11 @@ const graph = createGraph()
 // We define the function to switch the surname with the first name
 // only for one type
 const swapSurnameWithName = graph.createUnivalentFunction((customerArr: CustomerArr) => {
+  const [ firstName, lastName, emailAddress ] = customerArr
   return [
-    customerArr[1],
-    customerArr[0],
-    customerArr[2]
+    lastName,
+    firstName,
+    emailAddress
   ]
 },
 [
