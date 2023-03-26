@@ -26,7 +26,6 @@ graph.addMapping({
   fromName: 'CustomerArr',
   toName: 'CustomerRecord',
   to(from: CustomerArr) {
-    console.log(from)
     const [name, surname, email] = from
     return { name, surname, email }
   },

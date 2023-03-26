@@ -4,3 +4,6 @@ The general idea is that we define mappers between types to create generic funct
 
 
 Please see `demo` for example.
+
+# How to run demo
+The good, old `npm i` and `npm start`
