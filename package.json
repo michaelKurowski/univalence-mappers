@@ -7,7 +7,7 @@
     "start": "npx ts-node ./demo/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Michael Kurowski",
   "license": "ISC",
   "dependencies": {
     "ts-node": "^10.9.1"
